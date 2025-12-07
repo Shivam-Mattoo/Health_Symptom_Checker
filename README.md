@@ -83,10 +83,11 @@ Health_Symptom_Checker/
 
 4. **Create `.env` file** in the Backend directory:
    ```env
-   MONGO_URI=mongodb+srv://mattooshivam_db_user:ITnRrhYYWhLHn2Hs@healthsymptomchecker.d5oeexp.mongodb.net/
-   GEMINI_KEY=AIzaSyDGQ-cLrZTTAXhJOFAyb0d6GplS3Aiuajg
-   PINECONE_API=pcsk_nzkJF_SkFLu3fgv9EJAWZyXb2YPwHRFKvP69srPpck1XxgQHrUPqsQeJ3vSm6U5Xodckq
-   PINECONE_INDEX=healthchecker
+   MONGO_URI=your_mongo_uri_here
+   GEMINI_KEY=your_gemini_key_here
+   PINECONE_API=your_pinecone_api_key_here
+   PINECONE_INDEX=your_index_name
+
    ```
 
 5. **Run the backend server**:
