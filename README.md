@@ -10,6 +10,77 @@ A healthcare symptom analysis application that uses AI to provide educational in
 - **Modern UI**: Clean, responsive React frontend with Tailwind CSS
 - **RESTful API**: Well-structured FastAPI backend with OOP principles
 
+## UI Implementation and Results
+
+Below are screenshots of the Health Symptom Checker in action: input UI, progress state, result cards, severity/likelihood charts, and recommended actions.
+
+### Fig 1 — User Information (Logged-in User)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bc3a8051-64e0-4c4e-8a88-895e9ec12ea1" width="100%">
+</p>
+
+*Shows the authenticated user details at the top of the application.*
+
+
+### Fig 2 — Main User Interface (Symptom Input Options)
+
+<p align="center">
+ <img width="1782" height="917" alt="Screenshot 2025-12-07 172049" src="https://github.com/user-attachments/assets/6f659c5f-19be-40a8-91a7-fd0bff48a230" />
+</p>
+
+*This screen allows the user to begin the health analysis by choosing one of three input methods — **Text Input**, **Image Upload**, or **PDF Document**. It serves as the primary entry point for providing symptoms that the system will analyze.*
+
+
+### Fig 3 — Symptom Input and Real-Time Analysis Progress
+
+<p align="center">
+  <img width="1465" height="826" alt="Screenshot 2025-12-07 172232" src="https://github.com/user-attachments/assets/08962ee8-5568-4c87-b1f3-5e151e889fbe" />
+
+</p>
+
+*This screen shows the user entering symptoms in text format. After clicking **Analyze Symptoms**, the system begins processing the input using AI and displays a real-time progress indicator, informing the user that symptom analysis is underway.*
+
+### Fig 4 — Severity Assessment and Symptom Summary
+
+<p align="center">
+  <img width="1919" height="753" alt="Screenshot 2025-12-07 172305" src="https://github.com/user-attachments/assets/2dc60163-203b-4dcf-9c6c-9f37993d7319" />
+</p>
+
+*This screen displays the symptoms reported by the user followed by an AI-generated **severity assessment**. The system categorizes the condition as Mild, Moderate, or Severe and provides an alert level percentage along with a brief explanation of what the severity rating means.*
+
+
+### Fig 5 — Generated Possible Medical Conditions (Ranked by Likelihood )
+
+<p align="center">
+<img width="1910" height="922" alt="Screenshot 2025-12-07 172316" src="https://github.com/user-attachments/assets/bde16583-a107-4e1e-9ed1-bacdbd9ff43c" />
+<img width="1916" height="571" alt="Screenshot 2025-12-07 172327" src="https://github.com/user-attachments/assets/7604e716-0a6e-43de-93df-6441b4feaf9c" />
+
+</p>
+
+*This section displays the top potential medical conditions identified by the AI based on the user’s symptoms. Each condition is ranked and includes a likelihood percentage along with a short explanation. These results are educational suggestions only and not a medical diagnosis.*
+
+### Fig 6 — Recommended Action Steps Based on Symptom Analysis
+
+<p align="center">
+  <img width="1919" height="1023" alt="Screenshot 2025-12-07 172335" src="https://github.com/user-attachments/assets/39d3cc67-9807-489b-a33d-43e92d3c41ec" />
+  <img width="1919" height="609" alt="Screenshot 2025-12-07 172345" src="https://github.com/user-attachments/assets/ef55ca03-607b-446b-a7d8-eebcc0ac7356" />
+</p>
+
+*This section shows the AI-generated recommended action steps to help the user manage their symptoms. Each action is assigned a priority level, indicating its urgency and importance. The steps include explanations under “Why this matters” to help users understand the reasoning behind each recommendation.*
+
+### Fig 7 — Visual Analytics & Charts for Condition Likelihood
+
+<p align="center">
+  <img width="1919" height="1022" alt="Screenshot 2025-12-07 172357" src="https://github.com/user-attachments/assets/97f51b52-8cca-4b6e-a1ce-4996a26f6c44" />
+</p>
+
+*This section provides visual insights through analytics charts. The **Likelihood Bar Chart** displays how strongly the user’s symptoms match each potential condition, while the **Pie Chart** shows the proportional distribution of these likelihoods. These visualizations help users quickly understand the analysis results at a glance.*
+
+
+
+
+
+
 ## Tech Stack
 
 ### Backend
