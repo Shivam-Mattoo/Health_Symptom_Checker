@@ -1,5 +1,6 @@
 # Health Symptom Checker
 
+
 A healthcare symptom analysis application that uses AI to provide educational information about possible conditions based on user symptoms. **This is for educational purposes only and is not a substitute for professional medical advice.**
 
 ## Features
