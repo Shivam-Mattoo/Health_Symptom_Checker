@@ -6,6 +6,21 @@ A healthcare symptom analysis application that uses AI to provide educational in
 The objective of this project is to build an AI-powered healthcare tool that accepts user symptoms and returns **possible medical conditions**, **severity analysis**, and **recommended next steps**.  
 This project is designed to help users better understand their symptoms using LLMs, RAG, and analytics.  
 
+## 🎥 Demo Video
+
+Click below to watch the full project demo:
+
+👉 **Demo Video:** https://drive.google.com/file/d/1ZxisWzWQFJiqDDj_-9MYusAneF4zfaM5/view?usp=drive_link
+
+This video covers:
+- Full frontend walkthrough  
+- Backend FastAPI processing  
+- RAG + Pinecone + Gemini pipeline  
+- Severity & condition analysis  
+- Recommended action steps  
+- Visual charts and analytics  
+
+
 ## Features
 
 - **Symptom Analysis**: Input symptoms and receive AI-powered analysis of possible conditions
