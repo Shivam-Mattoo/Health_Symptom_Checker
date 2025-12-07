@@ -97,7 +97,7 @@ function App() {
           
           <div className="max-w-3xl mx-auto">
             <p className="text-gray-700 text-2xl font-medium mb-4 animate-slide-up" style={{animationDelay: '0.2s'}}>
-              🤖 AI-Powered Medical Analysis
+               AI-Powered Medical Analysis
             </p>
             <div className="inline-block bg-yellow-50 rounded-2xl px-8 py-4 shadow-lg border border-yellow-200 animate-slide-up" style={{animationDelay: '0.4s'}}>
               <p className="text-gray-700 text-base flex items-center justify-center">
