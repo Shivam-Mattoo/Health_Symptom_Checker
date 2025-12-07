@@ -1,7 +1,10 @@
 # Health Symptom Checker
 
-
 A healthcare symptom analysis application that uses AI to provide educational information about possible conditions based on user symptoms. **This is for educational purposes only and is not a substitute for professional medical advice.**
+
+## 📌 Problem Statement
+The objective of this project is to build an AI-powered healthcare tool that accepts user symptoms and returns **possible medical conditions**, **severity analysis**, and **recommended next steps**.  
+This project is designed to help users better understand their symptoms using LLMs, RAG, and analytics.  
 
 ## Features
 
@@ -95,6 +98,74 @@ Below are screenshots of the Health Symptom Checker in action: input UI, progres
 - **React 19**: UI library
 - **Vite**: Build tool and dev server
 - **Tailwind CSS**: Utility-first CSS framework
+  
+
+## 🎯 Why These Technologies?
+
+### 🟩 FastAPI (Backend)
+Fast, modern Python framework with:
+- Async performance  
+- Auto-generated `/docs`  
+- Cleaner structure than Flask  
+- Ideal for AI applications  
+
+---
+
+### 🟦 MongoDB (Database)
+Used because:
+- Flexible NoSQL JSON-like structure  
+- Perfect for AI outputs (dynamic fields)  
+- Scales easily  
+- Stores user history & previous results  
+
+---
+
+### 🟪 Pinecone (Vector Database)
+Needed for RAG because:
+- Stores embeddings  
+- Retrieves medically relevant context  
+- Works perfectly with Gemini embeddings  
+- Solves token-limit issues for large text/PDF input  
+
+---
+
+### 🧠 Retrieval Augmented Generation (RAG)
+We used RAG because:
+- Gemini alone cannot handle very long input  
+- RAG breaks text into chunks → embeds → retrieves  
+- Improves accuracy dramatically  
+- Prevents token overflow  
+- Critical for image & PDF uploads  
+
+---
+
+### 🟧 Google Gemini (LLM)
+Used because:
+- Understands symptoms accurately  
+- Generates severity, conditions, actions  
+- Supports embeddings  
+- Supports images and PDFs  
+
+---
+
+### ✔ Combined Power: MongoDB + Pinecone
+- MongoDB → stores **user data & history**  
+- Pinecone → stores **vector embeddings**  
+Both form a complete medical RAG pipeline.
+
+---
+
+
+## 🔄 System Workflow
+
+1. User enters symptoms (Text / Image / PDF)  
+2. Backend extracts text  
+3. RAG pipeline retrieves relevant medical information  
+4. Gemini generates severity, conditions, recommendations  
+5. Charts and results rendered on frontend  
+6. History saved to MongoDB  
+
+---
 
 ## Project Structure
 
@@ -121,6 +192,17 @@ Health_Symptom_Checker/
 │   └── package.json
 └── README.md
 ```
+## 🔑 Where to Get API Keys
+
+| Service | How to Get Key |
+|---------|----------------|
+| **MongoDB URI** | Go to https://cloud.mongodb.com → Create free cluster → Database → Connect → Choose “Connect your application” → Copy connection string |
+| **Gemini API Key** | Visit https://aistudio.google.com/ → Go to “Get API Key” → Generate new API key |
+| **Pinecone API Key** | Visit https://app.pinecone.io/ → API Keys → Create API Key |
+| **Pinecone Index Name** | Go to Pinecone Dashboard → Indexes → Create Index → Use that index name |
+
+
+Create your `.env` file inside `/Backend`:
 
 ## Setup Instructions
 
