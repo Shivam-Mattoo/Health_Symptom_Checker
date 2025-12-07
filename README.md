@@ -10,7 +10,7 @@ This project is designed to help users better understand their symptoms using LL
 
 Click below to watch the full project demo:
 
-👉 **Demo Video:** https://drive.google.com/file/d/1ZxisWzWQFJiqDDj_-9MYusAneF4zfaM5/view?usp=drive_link
+👉 **Demo Video:** https://drive.google.com/file/d/1oYxMgrRsP5VKv8cJ6z1gr2wxuGiwGVNd/view?usp=drive_link
 
 This video covers:
 - Full frontend walkthrough  
